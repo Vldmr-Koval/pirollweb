@@ -1,0 +1,24 @@
+@import "../../scss/constants";
+
+.section-header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    &_logo{
+        &__bg{}
+    }
+
+    &_menu{
+        &__item{
+            outline: none;
+            text-decoration: none;
+            list-style: none;
+            text-transform: uppercase;
+            color:#1d1d1d;
+
+            &:hover{
+                color: #10c9c3;
+            }
+        }
+    }
+}

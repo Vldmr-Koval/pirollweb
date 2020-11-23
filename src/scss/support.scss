@@ -1,0 +1,37 @@
+// reuse title category
+.title-category {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  &_name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    img {
+      display: block;
+    }
+    span {
+      padding-left: 5px;
+      color: #fff774;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 24px;
+      text-transform: uppercase;
+    }
+  }
+  &_more {
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+
+    width: 161px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid #786f88;
+    background-color: rgba(196, 196, 196, 0);
+  }
+}

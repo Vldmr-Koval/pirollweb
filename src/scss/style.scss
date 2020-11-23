@@ -1,0 +1,64 @@
+@import "./constants";
+@import "./reset";
+
+// @import "~bootstrap/scss/bootstrap";
+
+//импорт Шрифтов
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+
+// @font-face {
+//   font-family: 'Digital Numbers';
+//   font-style: normal;
+//   font-weight: normal;
+//   src: local('Digital Numbers'), url(../fonts/DigitalNumbers-Regular.woff) format('woff');
+// }
+
+//root
+
+// * {
+//   font-family: "Roboto", sans-serif;
+// }
+
+.container {
+  width: 1180px;
+  padding: 0 5px;
+  max-width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+body {
+  // color: $first-color;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+.someGlobalClass {
+  position: relative;
+}
+
+.grad-line-bottom {
+  position: relative;
+  // bottom: 0;
+  margin: auto;
+  height: 4px;
+  width: 100%;
+  max-width: 1440px;
+  background: linear-gradient(
+    90deg,
+    rgba(96, 51, 187, 0) 0%,
+    #58437d 50.42%,
+    rgba(96, 51, 190, 0) 100.83%
+  );
+}
+
+
+//reuse css
+
+//components css
+
+@import "../components/header/header";
