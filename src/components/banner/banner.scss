@@ -1,0 +1,51 @@
+@import "../../scss/constants";
+
+.section-banner{
+    max-width: 1366px;
+    width: 100%;
+    background: #e9e9e9;
+    margin: 0 auto;
+    padding: 225px 0 200px 0;
+    &_offer{
+        margin-left: 630px;
+        &__heading{
+            font-size: 38px;
+            line-height: 1.263;
+            font-weight: 500;
+            
+            padding-bottom: 25px;
+              
+              
+
+        }
+        &__subtitle{
+            padding-bottom: 30px;
+            font-size: 18px;
+            color: $color-text;
+            line-height: 1.556;
+
+            
+
+        }
+        &__action{
+            background-color: rgb(16, 201, 195);
+            width: 180px;
+            height: 54px;
+            color:#fff;
+            transition: all .5s;
+                
+              
+           &:hover{
+           
+            background-color: #23e4dd;
+
+            
+           } 
+           &:active{
+            background-color: #15f5ed;
+
+           }
+        }
+    }
+}
+

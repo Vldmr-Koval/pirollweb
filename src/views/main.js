@@ -1,4 +1,8 @@
 import Header from '../components/header';
+import Banner from '../components/banner';
+import About from '../components/about';
+import Skill from '../components/skill';
+import Numbers from '../components/numbers';
 
 
 const Main = () => {
@@ -10,6 +14,16 @@ const Main = () => {
             <div class="container">
                 ${Header()}
             </div>
+            
+                ${Banner()}
+
+            <div class="container">
+                ${About()}
+            </div>
+                ${Skill()}
+                ${Numbers()}
+                
+
         </div>    
     `
 };
