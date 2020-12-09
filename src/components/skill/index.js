@@ -11,7 +11,7 @@ const Skill = () => {
                         UI/UX Design   <span>75%</span> 
                     </div>
                     <div class="section-skill_content__metrics__item__info">
-                        <span class="section-skill_content__metrics__item__info__per75"></span>
+                        <span class="section-skill_content__metrics__item__info-per75"></span>
                     </div>
                 </div>
                 <div class="section-skill_content__metrics__item">
@@ -19,7 +19,7 @@ const Skill = () => {
                         web development    <span>95%</span>
                     </div>
                     <div class="section-skill_content__metrics__item__info">
-                        <span class="section-skill_content__metrics__item__info__per95"></span>
+                        <span class="section-skill_content__metrics__item__info-per95"></span>
                     </div>
                 </div>
                 <div class="section-skill_content__metrics__item">
@@ -27,7 +27,7 @@ const Skill = () => {
                         marketing    <span>65%</span>
                     </div>
                     <div class="section-skill_content__metrics__item__info">
-                        <span class="section-skill_content__metrics__item__info__per65"></span>
+                        <span class="section-skill_content__metrics__item__info-per65"></span>
                     </div>
                 </div>
             </div>

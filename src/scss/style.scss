@@ -48,6 +48,7 @@ body {
   // color: $first-color;
   font-family: Montserrat;
   background-color: #fff;
+  position: relative;
 }
 
 button {
@@ -85,3 +86,4 @@ button {
 @import "../components/about/about";
 @import "../components/skill/skill";
 @import "../components/numbers/numbers";
+@import "../components/work/work";

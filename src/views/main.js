@@ -2,7 +2,8 @@ import Header from '../components/header';
 import Banner from '../components/banner';
 import About from '../components/about';
 import Skill from '../components/skill';
-import Numbers from '../components/numbers';
+import Numbers from '../components/numbers'; 
+import Work from '../components/work'; 
 
 
 const Main = () => {
@@ -22,6 +23,7 @@ const Main = () => {
             </div>
                 ${Skill()}
                 ${Numbers()}
+                ${Work()}
                 
 
         </div>    
@@ -33,4 +35,5 @@ const main = document.getElementById('Main');
 if (main) {
     main.innerHTML = Main();
 }
+
 

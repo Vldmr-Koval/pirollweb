@@ -1,0 +1,68 @@
+@import "../../scss/constants";
+
+.section-numbers{
+    background-color: $color-second;
+    padding: 100px 0;
+    color: #ffffff;
+    &_wrap{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        &__item{
+            font-weight: 500;
+            padding-left: 70px;
+            position: relative;
+
+            &__numb{
+                font-size: 18px;
+                line-height: 1.667;
+                letter-spacing: 0.030em;
+          
+                 
+            }
+            &__title{
+                font-size: 12px;
+                text-transform: uppercase;
+                line-height: 2.5;
+                letter-spacing: 0.1em;
+                // letter-spacing: 5;   !!!
+
+                
+                                   
+            }
+            &:before{
+                content: "";
+                background-image: url(../images/numb11.png);
+                width: 40px;
+                height: 36px;
+                position: absolute;
+                top:0;
+                left: 0;
+                transform: translate(0, +25%)
+                
+            }
+
+            &:nth-child(2)::before{
+                background-image: url(../images/numb22.png);
+                width: 40px;
+                height: 40px;
+            }
+            &:nth-child(3)::before{
+                background-image: url(../images/numb33.png);
+                width: 44px;
+                height: 41px;
+            }
+            &:last-child::before{
+                background-image: url(../images/numb44.png);
+                
+            }
+
+
+            // img {
+            //     width: 40px;
+            //     height: 36px;
+            // }
+        }
+    }
+}

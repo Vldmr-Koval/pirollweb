@@ -1,0 +1,106 @@
+@import "../../scss/constants";
+
+
+
+.section-work{
+    width: 100%;
+    
+    max-width: 1366px;
+    margin: auto;
+    box-sizing: border-box;
+    position: relative;
+
+    &_wrap{
+        display: flex;
+        flex-wrap: wrap;
+        &__item{
+            width: 25%;
+            display: block;
+            position: relative;
+
+            &__portret{
+                display: block;
+                width: 100%;
+                height: auto;
+                z-index: 1;
+            }
+            &__bg{
+                z-index: 2;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                left: 0;
+                top: 0;
+                background-color: rgb(20, 20, 20);
+                opacity: 0;
+                transition: all 0.6s;
+            }
+
+                         
+
+            &__active{
+        
+                position: absolute;
+                display: block;
+                left: calc( 50% - 39px);
+                top: calc( 50% - 30px);
+                transition: all 0.1s;
+
+                padding: 15px;
+                z-index: 3;
+                opacity: 0;
+
+                img{
+                z-index: 4;
+                width: 48px;
+                height: 30px;
+                }
+                &:active{
+                    top: calc( 51% - 30px);
+                }
+            }
+
+            &:hover .section-work_wrap__item__bg {
+                opacity: 0.8;
+            }
+            &:hover .section-work_wrap__item__active {
+                opacity: 0.8;
+            }
+        }
+    }
+    &__more{
+        width: 100%;
+        height: 100px;
+        background-color: rgb(245, 245, 245);
+        color: rgb(142, 142, 142);
+        line-height: 1.2;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 500;
+        transition: all 0.3s;
+
+
+        &:hover{
+            background-color: rgb(236, 236, 236);
+        }
+        &:active{
+            background-color: rgb(221, 220, 220);
+            color: $color-second;
+            
+        }
+    }
+}
+
+.load_more_work {
+    font-size: 12px;
+    font-family: "Montserrat";
+    color: rgb(142, 142, 142);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+    position: absolute;
+    left: 614.734px;
+    top: 2541.3px;
+    z-index: 138;
+  }
+  
