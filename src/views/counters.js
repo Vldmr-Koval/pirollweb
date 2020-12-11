@@ -1,23 +1,20 @@
 
 const counters = document.querySelectorAll('.counter');
-const speed = 300; // The lower the slower
+const speed = 300; 
 
 counters.forEach(counter => {
 	const updateCount = () => {
 		const target = +counter.getAttribute('data-target');
 		const count = +counter.innerText;
 
-		// Lower inc to slow and higher to slow
 		const inc = target / speed;
 
-		// console.log(inc);
 		console.log(count);
 
-		// Check if target is reached
 		if (count < target) {
-			// Add inc to count and output in counter
+			
 			counter.innerText = Math.round(count + inc);
-			// Call function every ms
+			
 			setTimeout(updateCount, 1);
 		} else {
 			counter.innerText = target;
@@ -26,3 +23,38 @@ counters.forEach(counter => {
 
 	updateCount();
 });
+
+
+
+/* блок відео - початок*/
+
+function init(){
+
+	var btPlay = document.querySelector('.control');
+	var video = document.getElementById('myMediaID');
+	
+	
+
+	btPlay.addEventListener('click',function(event){
+		console.log(video.paused)
+		if(!video.paused){
+			video.pause();
+			btPlay.classList.add('play');
+			btPlay.classList.remove('pause');
+		}else{
+			video.play();
+			btPlay.classList.add('pause');
+			btPlay.classList.remove('play');
+		}
+	});
+
+	
+	
+
+}
+window.onload = function(){
+	console.log('LOADS');
+		
+}
+document.addEventListener("DOMContentLoaded", init);
+/* блок відео - закінчення*/
