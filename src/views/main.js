@@ -5,6 +5,7 @@ import Skill from '../components/skill';
 import Numbers from '../components/numbers'; 
 import Work from '../components/work'; 
 import Video from '../components/video'; 
+import Services from '../components/services'; 
 
 
 const Main = () => {
@@ -28,6 +29,7 @@ const Main = () => {
             <div class="container">
                 ${Video()}
             </div>    
+             ${Services()}
 
         </div>    
     `

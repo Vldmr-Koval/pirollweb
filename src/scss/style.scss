@@ -1,18 +1,8 @@
 @import "./constants";
+
 @import "./reset";
 
-// @import "~bootstrap/scss/bootstrap";
-
 //импорт Шрифтов
-// @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
-
-
-// @font-face {
-//   font-family: 'Digital Numbers';
-//   font-style: normal;
-//   font-weight: normal;
-//   src: local('Digital Numbers'), url(../fonts/DigitalNumbers-Regular.woff) format('woff');
-// }
 
 
 @font-face {
@@ -27,6 +17,12 @@
   font-weight: 500;
   font-style: normal;
 }
+// @font-face {
+//   font-family: 'Pe-icon-7-stroke';
+//   src: local('Pe-icon-7-stroke'), url('../fonts/Pe-icon-7-stroke.woff') format('woff');
+//   font-weight: normal;
+//   font-style: normal;
+// }
 
 
 //root
@@ -88,3 +84,4 @@ button {
 @import "../components/numbers/numbers";
 @import "../components/work/work";
 @import "../components/video/video";
+@import "../components/services/services";
