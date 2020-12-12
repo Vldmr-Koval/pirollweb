@@ -6,6 +6,7 @@ import Numbers from '../components/numbers';
 import Work from '../components/work'; 
 import Video from '../components/video'; 
 import Services from '../components/services'; 
+import TextSlider from '../components/textslider'; 
 
 
 const Main = () => {
@@ -30,6 +31,7 @@ const Main = () => {
                 ${Video()}
             </div>    
              ${Services()}
+             ${TextSlider()}
 
         </div>    
     `
