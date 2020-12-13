@@ -29,6 +29,7 @@
 
 * {
   font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
 }
 
 .container {
@@ -38,6 +39,7 @@
   margin: auto;
   box-sizing: border-box;
   position: relative;
+  // background-color: rgb(173, 241, 219);
 }
 
 body {

@@ -16,7 +16,7 @@ const Services = () => {
                         <img src="/src/svg/arc.svg" alt="" class="section-services_wrap__item__icon" >
                         <h3 class="section-services_wrap__item__title">web development</h3>
                         <p class="section-services_wrap__item__subtitle">A she'd them bring void moving  third she'd kind fill</p>
-                    </div>
+                    </div> 
                     <div class="section-services_wrap__item">
                         <img src="/src/svg/phone.svg" alt="" class="section-services_wrap__item__icon">
                         <h3 class="section-services_wrap__item__title"> app / mobile </h3>
