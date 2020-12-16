@@ -14,7 +14,7 @@ const TextSlider = () => {
                                     forward to start the next one asap.”
                             </p>
                             <p class="section-slider__response__slide_wrap__autor">
-                                Michael Hopkins
+                                Michael Hopkins (1)
                             </p>
                         </div>
                     </div>
@@ -26,7 +26,7 @@ const TextSlider = () => {
                                     forward to start the next one asap.”
                             </p>
                             <p class="section-slider__response__slide_wrap__autor">
-                                Michael Hopkins
+                                Michael Hopkins (2)
                             </p>
                         </div>
                     </div>
@@ -38,7 +38,7 @@ const TextSlider = () => {
                                     forward to start the next one asap.”
                             </p>
                             <p class="section-slider__response__slide_wrap__autor">
-                                Michael Hopkins
+                                Michael Hopkins (3)
                             </p>
                         </div>
                         

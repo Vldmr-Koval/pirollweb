@@ -39,7 +39,7 @@
   margin: auto;
   box-sizing: border-box;
   position: relative;
-  // background-color: rgb(173, 241, 219);
+  // background-color: rgba(173, 241, 219, 0.212);
 }
 
 body {
@@ -88,3 +88,6 @@ button {
 @import "../components/video/video";
 @import "../components/services/services";
 @import "../components/textslider/textslider";
+@import "../components/clients/clients";
+@import "../components/form/form";
+@import "../components/footer/footer";

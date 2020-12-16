@@ -1,0 +1,17 @@
+@import "../../scss/constants";
+
+.section-clients{
+    padding: 65px 0 ;
+    &_wrap{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        overflow-x: hidden;
+        &__item{
+            padding: 0 15px;
+            max-width: 20%;
+
+        }
+    }
+}

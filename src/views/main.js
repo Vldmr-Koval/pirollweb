@@ -7,6 +7,9 @@ import Work from '../components/work';
 import Video from '../components/video'; 
 import Services from '../components/services'; 
 import TextSlider from '../components/textslider'; 
+import Clients from '../components/clients'; 
+import Form from '../components/form'; 
+import Footer from '../components/footer'; 
 
 
 const Main = () => {
@@ -18,9 +21,7 @@ const Main = () => {
             <div class="container">
                 ${Header()}
             </div>
-            
                 ${Banner()}
-
             <div class="container">
                 ${About()}
             </div>
@@ -32,6 +33,9 @@ const Main = () => {
             </div>    
              ${Services()}
              ${TextSlider()}
+             ${Clients()}
+             ${Form()}
+             ${Footer()}
 
         </div>    
     `

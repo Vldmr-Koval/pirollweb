@@ -12,6 +12,7 @@
         // padding: auto 0;
         // display: flex;
         overflow: hidden;
+        cursor: pointer;
         // min-width: 0;
 
 
@@ -77,6 +78,8 @@
     height: 12px;
     background-color: rgba(255, 255, 255, 0.61);
     border-radius: 50%;
+    transition: all 0.5s;
+
 }
 .slick-dots li.slick-active button{
     width: 18px;
