@@ -8,8 +8,8 @@ const Header = () => {
         </a>
             
         <nav class="section-header_menu">
-            <a href="#" class="section-header_menu__item">home</a>
-            <a href="#" class="section-header_menu__item">about</a>
+            <a href="/main.html" class="section-header_menu__item">home</a>
+            <a href="/about.html" class="section-header_menu__item">about</a>
             <a href="#" class="section-header_menu__item">work</a>
             <a href="#" class="section-header_menu__item">process</a>
             <a href="#" class="section-header_menu__item">services</a>

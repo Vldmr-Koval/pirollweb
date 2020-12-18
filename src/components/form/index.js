@@ -13,8 +13,7 @@ const Form = () => {
                     <input type="text" placeholder="Your name" name="name" class="section-form_form__item section-form_form__item-name">
                     <input type="email" placeholder="Your email" name="email" class="section-form_form__item section-form_form__item-email">
                     <input type="text" placeholder="Your title" name="title" class="section-form_form__item section-form_form__item-title">
-                    <textarea type="text" placeholder="Your comment" name="comment" class="section-form_form__item section-form_form__item-comment">
-                    </textarea>
+                    <textarea type="text" placeholder="Your comment" name="comment" class="section-form_form__item section-form_form__item-comment"></textarea>
                     <button class="section-form_form__send">send message</button>        
                 </form>   
         </section>

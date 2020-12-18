@@ -1,4 +1,5 @@
 import './main';
+import './about';
 
 
 // import './slick.min';
