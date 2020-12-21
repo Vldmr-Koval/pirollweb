@@ -35,7 +35,7 @@ function init(){
 	
 	
 
-	btPlay.addEventListener('click',function(event){
+	btPlay.addEventListener('click',function(evt){
 		console.log(video.paused)
 		if(!video.paused){
 			video.pause();

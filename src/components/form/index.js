@@ -17,7 +17,8 @@ const Form = () => {
                     <button class="section-form_form__send">send message</button>        
                 </form>   
         </section>
-    
+
+        <div id="map"></div>
 
 
     `

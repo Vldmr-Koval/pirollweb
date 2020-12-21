@@ -69,7 +69,7 @@
             .btn.play:after{		
                 border-top: 8px solid transparent;
                 border-bottom: 8px solid transparent;	
-                border-left: 8px solid #222;
+                border-left: 8px solid #fff;
             }
             .btn.pause:after{
                 background-color: none;
@@ -78,8 +78,8 @@
                 height: 12px;
                 left: calc(50% - 5px);
                 top: calc(50% - 6px);
-                border-right:3px solid #222;
-                border-left: 3px solid #222;
+                border-right:3px solid #fff;
+                border-left: 3px solid #fff;
             }
             .pause{
               opacity: 0;
